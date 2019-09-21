@@ -19,12 +19,12 @@ parameter ReadVertex1=2'd0, ReadVertex2=2'd1, ReadVertex3=2'd2, Processing=2'd3;
 always@(posedge clk)begin
 	if(reset) begin
 	State=ReadVertex1;
-	xc=3'b0;
-		yc=3'b0;
+		xc=3'b0;
+		yc=4'b0;
 		x1=3'b0;
 		x2=3'b0;
 		x3=3'b0;
-		y1=3'b0;
+		y1=4'b0;
 		y2=3'b0;
 		y3=3'b0;
 		xo=3'b0;
@@ -37,10 +37,10 @@ always@(posedge clk)begin
 	ReadVertex1: begin
 		if(nt) begin
 		xc=3'b0;
-		yc=3'b0;
+		yc=4'b0;
 		x1=xi;
 		x2=x2;
-		x3=x2;
+		x3=x3;
 		y1={1'b0,yi};
 		y2=y2;
 		y3=y3;
@@ -52,7 +52,7 @@ always@(posedge clk)begin
 		end
 		else begin
 		xc=3'b0;
-		yc=3'b0;
+		yc=4'b0;
 		x1=x1;
 		x2=x2;
 		x3=x3;
@@ -68,7 +68,7 @@ always@(posedge clk)begin
 	end
 	ReadVertex2: begin
 		xc=3'b0;
-		yc=3'b0;
+		yc=4'b0;
 		x1=x1;
 		x2=xi;
 		x3=x3;
@@ -84,7 +84,7 @@ always@(posedge clk)begin
 	end
 	ReadVertex3: begin
 		xc=3'b0;
-		yc=3'b0;
+		yc=4'b0;
 		x1=x1;
 		x2=x2;
 		x3=xi;
@@ -129,13 +129,6 @@ always@(posedge clk)begin
 endcase	
 end
 end
-
-/*always@(posedge clk)begin
-	if(reset)
-	State=3'b0;
-	else
-	State=NextState;
-	end*/
 endmodule	
 	
 	
