@@ -16,7 +16,7 @@ reg[5:0] Boundary,Position;
 
 reg  [1:0]  State;
 parameter ReadVertex1=2'd0, ReadVertex2=2'd1, ReadVertex3=2'd2, Processing=2'd3;
-always@(posedge clk)begin
+always@(posedge clk or posedge reset)begin
 	if(reset) begin
 	State=ReadVertex1;
 		xc=3'b0;
