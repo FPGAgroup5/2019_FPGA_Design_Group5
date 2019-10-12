@@ -1,0 +1,58 @@
+/*
+ * QuickSort.c
+ *
+ *  Created on: 2019¦~10¤ë12¤é
+ *      Author: User
+ */
+
+#include<stdio.h>
+#include<xil_io.h>
+//#include <xuartlite_l.h>
+//#include<vector>
+//using namespace std;
+#define DATA_SIZE 20
+int Partition(int *data ,int p, int r);
+void QuickSort(int *data ,int p,int r);
+
+
+int main(){
+int value;
+int data[DATA_SIZE];
+//for(int i=0;i<20;i++){
+	scanf("%d",&value);
+	data[2]=value;
+//
+    QuickSort(data,0,DATA_SIZE-1);
+         for(int i=0;i<DATA_SIZE;i++){     //write result to output file
+        printf("%d\r\n",data[i]);
+    }
+}
+
+int Partition(int *data,int p,int r){
+    int temp;
+
+    int x=data[r];
+    int i=p-1;
+    for(int j=p;j<r;j++){
+        if(data[j]<=x){
+            i=i+1;
+            temp=data[i];
+            data[i]=data[j];
+            data[j]=temp;
+        }
+    }
+    temp=data[i+1];
+    data[i+1]=data[r];
+    data[r]=temp;
+    return i+1;
+
+}
+void QuickSort(int *data,int p,int r){
+    if(p<r){
+        int q=Partition(data,p,r);
+        QuickSort(data,p,q-1);
+        QuickSort(data,q+1,r);
+    }
+}
+
+

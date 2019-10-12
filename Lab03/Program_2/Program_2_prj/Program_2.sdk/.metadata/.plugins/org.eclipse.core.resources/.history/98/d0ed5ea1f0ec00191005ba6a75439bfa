@@ -1,0 +1,69 @@
+/*
+ * Hash.c
+ *
+ *  Created on: 2019¦~10¤ë12¤é
+ *      Author: User
+ */
+
+
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xil_printf.h"
+
+#define SW_DEVICE_ID  XPAR_GPIO_0_DEVICE_ID
+#define DELAY 1000000
+
+XGpio SW_Gpio;
+
+int main() {
+	int  SW_Status;
+	u32 sw_data;
+	int member1[3]={15,2405,6645}; //E24056645
+	int member2[3]={15,2405,3061}; //E24053061
+	int member3[3]={15,2405,6849}; //E24056849
+	/* Initialize the GPIO driver */
+	int hash_data=0;
+	SW_Status = XGpio_Initialize(&SW_Gpio, SW_DEVICE_ID);
+
+
+	if (SW_Status) {
+		xil_printf("Gpio Initialization Failed\r\n");
+		return XST_FAILURE;
+	}
+	/* Set the direction for all signals as inputs except the LED output */
+	XGpio_SetDataDirection(&SW_Gpio, 1, 0x0f);
+
+	while (1) {
+			sw_data = XGpio_DiscreteRead(&SW_Gpio, 1);
+			xil_printf("switches data = %d\r\n", sw_data);
+			/* Set the LEDs to High */
+
+			switch(sw_data){
+			case 0://red
+				hash_data=member1[1]*member1[2]+ member1[0]+ member1[1]+ member1[2];
+				xil_printf(hash_data);
+				break;
+			case 1://orange
+				hash_data=member2[1]*member2[2]+ member2[0]+ member2[1]+ member2[2];
+				xil_printf(hash_data);
+				break;
+			case 2://yellow
+				hash_data=member3[1]*member3[2]+ member3[0]+ member3[1]+ member3[2];
+				xil_printf(hash_data);
+				break;
+
+			case 3://green
+				xil_printf("RECIPIENT UNKNOWN\n");
+				break;
+			default:
+				xil_printf("ERROR\n");
+				break;
+			}
+
+
+			for(int i=0;i<DELAY;i++);
+		}
+
+		//xil_printf("Successfully ran Gpio Example\r\n");
+		return XST_SUCCESS;
+}

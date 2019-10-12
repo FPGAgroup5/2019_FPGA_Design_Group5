@@ -1,0 +1,8 @@
+23:35:51 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+23:35:51 Build Finished (took 271ms)
+

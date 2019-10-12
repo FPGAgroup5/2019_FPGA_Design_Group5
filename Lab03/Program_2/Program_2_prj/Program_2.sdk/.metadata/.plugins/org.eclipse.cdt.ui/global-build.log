@@ -1,0 +1,2946 @@
+20:31:21 **** Build of project Hash_Functinon_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:32:05 **** Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ../../Hash_Functinon_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): in function `_start':
+D:\Lectures\FPGA\Lab03\Program_2\Program_2.sdk\Hash_Functinon_bsp\ps7_cortexa9_0\libsrc\standalone_v7_0\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Hash_Functinon.elf] Error 1
+20:32:40 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:25:34: error: 'LEDr_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  LEDr_Status = XGpio_Initialize(&LEDr_Gpio, LEDr_DEVICE_ID);
+                                  ^~~~~~~~~
+                                  SW_Gpio
+../src/Hash.c:25:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:25:45: error: 'LEDr_DEVICE_ID' undeclared (first use in this function); did you mean 'SW_DEVICE_ID'?
+  LEDr_Status = XGpio_Initialize(&LEDr_Gpio, LEDr_DEVICE_ID);
+                                             ^~~~~~~~~~~~~~
+                                             SW_DEVICE_ID
+../src/Hash.c:26:34: error: 'LEDg_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  LEDg_Status = XGpio_Initialize(&LEDg_Gpio, LEDg_DEVICE_ID);
+                                  ^~~~~~~~~
+                                  SW_Gpio
+../src/Hash.c:26:45: error: 'LEDg_DEVICE_ID' undeclared (first use in this function); did you mean 'SW_DEVICE_ID'?
+  LEDg_Status = XGpio_Initialize(&LEDg_Gpio, LEDg_DEVICE_ID);
+                                             ^~~~~~~~~~~~~~
+                                             SW_DEVICE_ID
+../src/Hash.c:27:34: error: 'LEDb_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  LEDb_Status = XGpio_Initialize(&LEDb_Gpio, LEDb_DEVICE_ID);
+                                  ^~~~~~~~~
+                                  SW_Gpio
+../src/Hash.c:27:45: error: 'LEDb_DEVICE_ID' undeclared (first use in this function); did you mean 'SW_DEVICE_ID'?
+  LEDb_Status = XGpio_Initialize(&LEDb_Gpio, LEDb_DEVICE_ID);
+                                             ^~~~~~~~~~~~~~
+                                             SW_DEVICE_ID
+../src/Hash.c:59:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:114:14: error: 'COLORPERIOD' undeclared (first use in this function)
+    if(count>=COLORPERIOD){
+              ^~~~~~~~~~~
+../src/Hash.c:122:12: error: 'RGB_UNIT' undeclared (first use in this function)
+     count+=RGB_UNIT;
+            ^~~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:32:51 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:23:2: error: 'LEDr_Status' undeclared (first use in this function); did you mean 'SW_Status'?
+  LEDr_Status = XGpio_Initialize(&LEDr_Gpio, LEDr_DEVICE_ID);
+  ^~~~~~~~~~~
+  SW_Status
+../src/Hash.c:23:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:23:34: error: 'LEDr_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  LEDr_Status = XGpio_Initialize(&LEDr_Gpio, LEDr_DEVICE_ID);
+                                  ^~~~~~~~~
+                                  SW_Gpio
+../src/Hash.c:23:45: error: 'LEDr_DEVICE_ID' undeclared (first use in this function); did you mean 'SW_DEVICE_ID'?
+  LEDr_Status = XGpio_Initialize(&LEDr_Gpio, LEDr_DEVICE_ID);
+                                             ^~~~~~~~~~~~~~
+                                             SW_DEVICE_ID
+../src/Hash.c:24:2: error: 'LEDg_Status' undeclared (first use in this function); did you mean 'SW_Status'?
+  LEDg_Status = XGpio_Initialize(&LEDg_Gpio, LEDg_DEVICE_ID);
+  ^~~~~~~~~~~
+  SW_Status
+../src/Hash.c:24:34: error: 'LEDg_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  LEDg_Status = XGpio_Initialize(&LEDg_Gpio, LEDg_DEVICE_ID);
+                                  ^~~~~~~~~
+                                  SW_Gpio
+../src/Hash.c:24:45: error: 'LEDg_DEVICE_ID' undeclared (first use in this function); did you mean 'SW_DEVICE_ID'?
+  LEDg_Status = XGpio_Initialize(&LEDg_Gpio, LEDg_DEVICE_ID);
+                                             ^~~~~~~~~~~~~~
+                                             SW_DEVICE_ID
+../src/Hash.c:25:2: error: 'LEDb_Status' undeclared (first use in this function); did you mean 'SW_Status'?
+  LEDb_Status = XGpio_Initialize(&LEDb_Gpio, LEDb_DEVICE_ID);
+  ^~~~~~~~~~~
+  SW_Status
+../src/Hash.c:25:34: error: 'LEDb_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  LEDb_Status = XGpio_Initialize(&LEDb_Gpio, LEDb_DEVICE_ID);
+                                  ^~~~~~~~~
+                                  SW_Gpio
+../src/Hash.c:25:45: error: 'LEDb_DEVICE_ID' undeclared (first use in this function); did you mean 'SW_DEVICE_ID'?
+  LEDb_Status = XGpio_Initialize(&LEDb_Gpio, LEDb_DEVICE_ID);
+                                             ^~~~~~~~~~~~~~
+                                             SW_DEVICE_ID
+../src/Hash.c:43:39: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDr_Gpio, 1, ledr_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:44:39: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDg_Gpio, 1, ledg_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:45:39: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDb_Gpio, 1, ledb_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:57:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:112:14: error: 'COLORPERIOD' undeclared (first use in this function)
+    if(count>=COLORPERIOD){
+              ^~~~~~~~~~~
+../src/Hash.c:120:12: error: 'RGB_UNIT' undeclared (first use in this function)
+     count+=RGB_UNIT;
+            ^~~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:33:04 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:25:6: error: 'LEDr_Status' undeclared (first use in this function); did you mean 'SW_Status'?
+  if (LEDr_Status != XST_SUCCESS || LEDg_Status != XST_SUCCESS ||LEDb_Status != XST_SUCCESS ||SW_Status) {
+      ^~~~~~~~~~~
+      SW_Status
+../src/Hash.c:25:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:25:36: error: 'LEDg_Status' undeclared (first use in this function); did you mean 'SW_Status'?
+  if (LEDr_Status != XST_SUCCESS || LEDg_Status != XST_SUCCESS ||LEDb_Status != XST_SUCCESS ||SW_Status) {
+                                    ^~~~~~~~~~~
+                                    SW_Status
+../src/Hash.c:25:65: error: 'LEDb_Status' undeclared (first use in this function); did you mean 'SW_Status'?
+  if (LEDr_Status != XST_SUCCESS || LEDg_Status != XST_SUCCESS ||LEDb_Status != XST_SUCCESS ||SW_Status) {
+                                                                 ^~~~~~~~~~~
+                                                                 SW_Status
+../src/Hash.c:30:26: error: 'LEDr_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  XGpio_SetDataDirection(&LEDr_Gpio, 1, 0x00);
+                          ^~~~~~~~~
+                          SW_Gpio
+../src/Hash.c:31:26: error: 'LEDg_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  XGpio_SetDataDirection(&LEDg_Gpio, 1, 0x00);
+                          ^~~~~~~~~
+                          SW_Gpio
+../src/Hash.c:32:26: error: 'LEDb_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  XGpio_SetDataDirection(&LEDb_Gpio, 1, 0x00);
+                          ^~~~~~~~~
+                          SW_Gpio
+../src/Hash.c:39:39: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDr_Gpio, 1, ledr_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:40:39: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDg_Gpio, 1, ledg_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:41:39: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDb_Gpio, 1, ledb_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:43:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:53:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:53:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:108:14: error: 'COLORPERIOD' undeclared (first use in this function)
+    if(count>=COLORPERIOD){
+              ^~~~~~~~~~~
+../src/Hash.c:116:12: error: 'RGB_UNIT' undeclared (first use in this function)
+     count+=RGB_UNIT;
+            ^~~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:33:18 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:30:26: error: 'LEDr_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  XGpio_SetDataDirection(&LEDr_Gpio, 1, 0x00);
+                          ^~~~~~~~~
+                          SW_Gpio
+../src/Hash.c:30:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:31:26: error: 'LEDg_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  XGpio_SetDataDirection(&LEDg_Gpio, 1, 0x00);
+                          ^~~~~~~~~
+                          SW_Gpio
+../src/Hash.c:32:26: error: 'LEDb_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+  XGpio_SetDataDirection(&LEDb_Gpio, 1, 0x00);
+                          ^~~~~~~~~
+                          SW_Gpio
+../src/Hash.c:39:39: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDr_Gpio, 1, ledr_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:40:39: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDg_Gpio, 1, ledg_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:41:39: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDb_Gpio, 1, ledb_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:43:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:53:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:53:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:108:14: error: 'COLORPERIOD' undeclared (first use in this function)
+    if(count>=COLORPERIOD){
+              ^~~~~~~~~~~
+../src/Hash.c:116:12: error: 'RGB_UNIT' undeclared (first use in this function)
+     count+=RGB_UNIT;
+            ^~~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:33:24 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:36:25: error: 'LEDr_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+    XGpio_DiscreteWrite(&LEDr_Gpio, 1, ledr_data);
+                         ^~~~~~~~~
+                         SW_Gpio
+../src/Hash.c:36:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:36:39: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDr_Gpio, 1, ledr_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:37:25: error: 'LEDg_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+    XGpio_DiscreteWrite(&LEDg_Gpio, 1, ledg_data);
+                         ^~~~~~~~~
+                         SW_Gpio
+../src/Hash.c:37:39: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDg_Gpio, 1, ledg_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:38:25: error: 'LEDb_Gpio' undeclared (first use in this function); did you mean 'SW_Gpio'?
+    XGpio_DiscreteWrite(&LEDb_Gpio, 1, ledb_data);
+                         ^~~~~~~~~
+                         SW_Gpio
+../src/Hash.c:38:39: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+    XGpio_DiscreteWrite(&LEDb_Gpio, 1, ledb_data);
+                                       ^~~~~~~~~
+                                       sw_data
+../src/Hash.c:40:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:50:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:50:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:105:14: error: 'COLORPERIOD' undeclared (first use in this function)
+    if(count>=COLORPERIOD){
+              ^~~~~~~~~~~
+../src/Hash.c:113:12: error: 'RGB_UNIT' undeclared (first use in this function)
+     count+=RGB_UNIT;
+            ^~~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:35:22 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:20:14: error: 'E24056645' undeclared (first use in this function)
+  int member1=E24056645;
+              ^~~~~~~~~
+../src/Hash.c:20:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:38:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:41:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:42:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:43:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:48:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:48:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1=E24056645;
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:35:52 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:38:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:38:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:41:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:42:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:43:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:48:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:48:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1=24056645;
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:36:53 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:20:18: error: 'E' undeclared (first use in this function)
+  int member1[9]={E,2,4,0,5,6,6,4,5};
+                  ^
+../src/Hash.c:20:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:38:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:41:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:42:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:43:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:48:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:48:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={E,2,4,0,5,6,6,4,5};
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:38:53 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:38:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:38:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:41:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:42:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:43:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:48:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:48:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[8]={2,4,0,5,6,6,4,5};
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:39:57 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:39:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:39:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:42:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:43:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:44:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:49:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:49:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[8]={2,4,0,5,6,8,4,9};
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[8]={2,4,0,5,3,0,6,1};
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[8]={2,4,0,5,6,6,4,5};
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:42:19 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:39:11: error: 'color' undeclared (first use in this function); did you mean 'tolower'?
+    switch(color){
+           ^~~~~
+           tolower
+../src/Hash.c:39:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:42:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:43:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:44:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:49:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:49:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:42:29 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:42:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:42:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:43:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:44:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:49:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:49:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:42:34 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:41:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:41:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:42:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:43:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'sw_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     sw_data
+../src/Hash.c:48:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:48:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:43:07 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:42:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:42:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:43:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:44:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:49:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:49:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:24:6: warning: unused variable 'hash_data' [-Wunused-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:43:11 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:42:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:42:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:43:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:44:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:49:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:49:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:24:6: warning: unused variable 'hash_data' [-Wunused-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:43:19 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:42:5: error: 'hashdata' undeclared (first use in this function); did you mean 'hash_data'?
+     hashdata
+     ^~~~~~~~
+     hash_data
+../src/Hash.c:42:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:42:13: error: expected ';' before 'break'
+     hashdata
+             ^
+             ;
+     break;
+     ~~~~~    
+../src/Hash.c:46:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:47:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:47:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:48:6: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+      ledg_data=1;
+      ^~~~~~~~~
+      hash_data
+../src/Hash.c:51:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:24:6: warning: unused variable 'hash_data' [-Wunused-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:43:30 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:5: error: expected expression before 'break'
+     break;
+     ^~~~~
+../src/Hash.c:46:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:46:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:47:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:47:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:48:6: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+      ledg_data=1;
+      ^~~~~~~~~
+      hash_data
+../src/Hash.c:51:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:24:6: warning: variable 'hash_data' set but not used [-Wunused-but-set-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:43:33 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:5: error: expected expression before 'break'
+     break;
+     ^~~~~
+../src/Hash.c:45:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:45:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:46:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:46:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:47:6: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+      ledg_data=1;
+      ^~~~~~~~~
+      hash_data
+../src/Hash.c:50:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:24:6: warning: variable 'hash_data' set but not used [-Wunused-but-set-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:43:35 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:42:15: error: expected expression before ';' token
+     hash_data=;
+               ^
+../src/Hash.c:45:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:45:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:46:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:46:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:47:6: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+      ledg_data=1;
+      ^~~~~~~~~
+      hash_data
+../src/Hash.c:50:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:24:6: warning: variable 'hash_data' set but not used [-Wunused-but-set-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[9]={15,2,4,0,5,6,8,4,9}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[9]={15,2,4,0,5,3,0,6,1}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[9]={15,2,4,0,5,6,6,4,5}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:44:21 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:42:15: error: expected expression before ';' token
+     hash_data=;
+               ^
+../src/Hash.c:45:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:45:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:46:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:46:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:47:6: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+      ledg_data=1;
+      ^~~~~~~~~
+      hash_data
+../src/Hash.c:50:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:24:6: warning: variable 'hash_data' set but not used [-Wunused-but-set-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[3]={15,2405,6849}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[3]={15,2405,3061}; //E24053061
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[3]={15,2405,6645}; //E24056645
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:45:14 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:45:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:45:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:46:8: error: 'count' undeclared (first use in this function)
+     if(count%RGB_MAX<=97)
+        ^~~~~
+../src/Hash.c:46:14: error: 'RGB_MAX' undeclared (first use in this function); did you mean 'INT8_MAX'?
+     if(count%RGB_MAX<=97)
+              ^~~~~~~
+              INT8_MAX
+../src/Hash.c:47:6: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+      ledg_data=1;
+      ^~~~~~~~~
+      hash_data
+../src/Hash.c:50:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:24:6: warning: variable 'hash_data' set but not used [-Wunused-but-set-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[3]={15,2405,6849}; //E24056849
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[3]={15,2405,3061}; //E24053061
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:45:45 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:52:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:52:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:53:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledg_data=1;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:54:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:24:6: warning: variable 'hash_data' set but not used [-Wunused-but-set-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:47:14 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:47:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:51:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:58:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:58:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:59:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:60:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:47:20 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:47:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:51:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:58:5: error: 'ledr_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledr_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:58:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Hash.c:59:5: error: 'ledg_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledg_data=0;
+     ^~~~~~~~~
+     hash_data
+../src/Hash.c:60:5: error: 'ledb_data' undeclared (first use in this function); did you mean 'hash_data'?
+     ledb_data=0;
+     ^~~~~~~~~
+     hash_data
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:47:39 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:47:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:51:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+20:47:45 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:47:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:51:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+20:53:11 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:47:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:51:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+20:53:25 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:54:07 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:54:46 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:47:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:51:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+20:56:01 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:43:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:47:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:51:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+20:56:20 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:57:20 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+20:57:47 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:64:15: error: expected ',' or ';' before ':' token
+    for(int i=0:i<DELAY,i++)''
+               ^
+../src/Hash.c:64:28: error: empty character constant
+    for(int i=0:i<DELAY,i++)''
+                            ^~
+../src/Hash.c:68:3: error: expected expression before 'return'
+   return XST_SUCCESS;
+   ^~~~~~
+../src/Hash.c:69:1: error: expected expression before '}' token
+ }
+ ^
+../src/Hash.c:69:1: error: expected expression before '}' token
+../src/Hash.c:64:12: warning: unused variable 'i' [-Wunused-variable]
+    for(int i=0:i<DELAY,i++)''
+            ^
+../src/Hash.c:69:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:57:54 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:64:15: error: expected ',' or ';' before ':' token
+    for(int i=0:i<DELAY,i++);
+               ^
+../src/Hash.c:65:3: error: expected expression before '}' token
+   }
+   ^
+../src/Hash.c:65:3: error: expected expression before '}' token
+../src/Hash.c:65:3: error: expected expression before '}' token
+../src/Hash.c:64:12: warning: unused variable 'i' [-Wunused-variable]
+    for(int i=0:i<DELAY,i++);
+            ^
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:58:02 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:64:15: error: expected ',' or ';' before ':' token
+    for(int i=0:i<DELAY,i++);
+               ^
+../src/Hash.c:65:3: error: expected expression before '}' token
+   }
+   ^
+../src/Hash.c:65:3: error: expected expression before '}' token
+../src/Hash.c:65:3: error: expected expression before '}' token
+../src/Hash.c:64:12: warning: unused variable 'i' [-Wunused-variable]
+    for(int i=0:i<DELAY,i++);
+            ^
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:58:42 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:64:23: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    for(int i=0;i<DELAY,i++);
+                       ^
+../src/Hash.c:64:27: error: expected ';' before ')' token
+    for(int i=0;i<DELAY,i++);
+                           ^
+                           ;
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+20:58:45 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+20:58:50 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:59:31 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:00:53 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:02:49 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:48:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:52:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30972	   1560	  23288	  55820	   da0c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:03:05 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:46:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:50:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+../src/Hash.c:54:16: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+     xil_printf(hash_data);
+                ^~~~~~~~~
+In file included from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_io.h:61,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio_l.h:83,
+                 from ../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/Hash.c:10:
+../../Hash_Functinon_bsp/ps7_cortexa9_0/include/xil_printf.h:39:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31036	   1560	  23288	  55884	   da4c	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:03:34 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:04:00 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:05:38 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31040	   1560	  23288	  55888	   da50	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:06:13 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31040	   1560	  23288	  55888	   da50	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:06:19 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:08:24 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31040	   1560	  23288	  55888	   da50	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:09:20 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:10:11 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:10:42 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:13:06 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:27:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'bool'
+  bool sw_change=1;
+  ^~~~
+../src/Hash.c:27:2: error: unknown type name 'bool'; did you mean '_Bool'?
+  bool sw_change=1;
+  ^~~~
+  _Bool
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:13:10 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:27:2: error: unknown type name 'bool'; did you mean '_Bool'?
+  bool sw_change=1;
+  ^~~~
+  _Bool
+../src/Hash.c:26:6: warning: unused variable 'sw_data_temp' [-Wunused-variable]
+  u32 sw_data_temp;
+      ^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:15:54 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:26:6: warning: unused variable 'sw_data_temp' [-Wunused-variable]
+  u32 sw_data_temp;
+      ^~~~~~~~~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:16:25 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:26:6: warning: variable 'sw_data_temp' set but not used [-Wunused-but-set-variable]
+  u32 sw_data_temp;
+      ^~~~~~~~~~~~
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:16:42 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:16:55 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:44:16: error: expected ';' before 'sw_data_temp'
+     sw_change=0
+                ^
+                ;
+    sw_data_temp=sw_data;
+    ~~~~~~~~~~~~ 
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:16:56 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:17:21 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:37:2: warning: implicit declaration of function 'While' [-Wimplicit-function-declaration]
+  While(1)
+  ^~~~~
+../src/Hash.c:37:10: error: expected ';' before 'while'
+  While(1)
+          ^
+          ;
+  while (sw_change) {
+  ~~~~~    
+../src/Hash.c:27:8: warning: unused variable 'sw_change' [-Wunused-variable]
+  _Bool sw_change=1;
+        ^~~~~~~~~
+../src/Hash.c:26:6: warning: unused variable 'sw_data_temp' [-Wunused-variable]
+  u32 sw_data_temp;
+      ^~~~~~~~~~~~
+../src/Hash.c:25:6: warning: unused variable 'hash_data' [-Wunused-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:23:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[3]={15,2405,6849}; //E24056849
+      ^~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[3]={15,2405,3061}; //E24053061
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[3]={15,2405,6645}; //E24056645
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'sw_data' [-Wunused-variable]
+  u32 sw_data;
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:17:29 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:37:2: warning: implicit declaration of function 'While' [-Wimplicit-function-declaration]
+  While(1){
+  ^~~~~
+../src/Hash.c:37:10: error: expected ';' before '{' token
+  While(1){
+          ^
+          ;
+../src/Hash.c:27:8: warning: unused variable 'sw_change' [-Wunused-variable]
+  _Bool sw_change=1;
+        ^~~~~~~~~
+../src/Hash.c:26:6: warning: unused variable 'sw_data_temp' [-Wunused-variable]
+  u32 sw_data_temp;
+      ^~~~~~~~~~~~
+../src/Hash.c:25:6: warning: unused variable 'hash_data' [-Wunused-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:23:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[3]={15,2405,6849}; //E24056849
+      ^~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[3]={15,2405,3061}; //E24053061
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[3]={15,2405,6645}; //E24056645
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'sw_data' [-Wunused-variable]
+  u32 sw_data;
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:17:30 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:37:2: warning: implicit declaration of function 'While' [-Wimplicit-function-declaration]
+  While(1){
+  ^~~~~
+../src/Hash.c:37:10: error: expected ';' before '{' token
+  While(1){
+          ^
+          ;
+../src/Hash.c:27:8: warning: unused variable 'sw_change' [-Wunused-variable]
+  _Bool sw_change=1;
+        ^~~~~~~~~
+../src/Hash.c:26:6: warning: unused variable 'sw_data_temp' [-Wunused-variable]
+  u32 sw_data_temp;
+      ^~~~~~~~~~~~
+../src/Hash.c:25:6: warning: unused variable 'hash_data' [-Wunused-variable]
+  int hash_data=0;
+      ^~~~~~~~~
+../src/Hash.c:23:6: warning: unused variable 'member3' [-Wunused-variable]
+  int member3[3]={15,2405,6849}; //E24056849
+      ^~~~~~~
+../src/Hash.c:22:6: warning: unused variable 'member2' [-Wunused-variable]
+  int member2[3]={15,2405,3061}; //E24053061
+      ^~~~~~~
+../src/Hash.c:21:6: warning: unused variable 'member1' [-Wunused-variable]
+  int member1[3]={15,2405,6645}; //E24056645
+      ^~~~~~~
+../src/Hash.c:20:6: warning: unused variable 'sw_data' [-Wunused-variable]
+  u32 sw_data;
+      ^~~~~~~
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:17:36 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:18:04 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:18:57 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:19:12 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31044	   1560	  23288	  55892	   da54	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:19:16 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:25:25 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:25:52 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:26:50 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:26:53 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:28:36 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:28:49 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:29:26 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:29:39 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:31:44 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31172	   1560	  23288	  56020	   dad4	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:31:47 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:32:26 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31172	   1560	  23288	  56020	   dad4	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:32:28 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:32:58 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:33:21 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31172	   1560	  23288	  56020	   dad4	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:34:32 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:75:20: error: expected ';' before '}' token
+   xil_printf("AAA")
+                    ^
+                    ;
+   }
+   ~                 
+../src/Hash.c:79:20: error: expected ';' before '}' token
+   xil_printf("BBB")
+                    ^
+                    ;
+   }
+   ~                 
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:34:35 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:75:20: error: expected ';' before '}' token
+   xil_printf("AAA")
+                    ^
+                    ;
+   }
+   ~                 
+../src/Hash.c:79:20: error: expected ';' before '}' token
+   xil_printf("BBB")
+                    ^
+                    ;
+   }
+   ~                 
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:34:42 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31180	   1560	  23288	  56028	   dadc	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:34:45 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:36:17 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31180	   1560	  23288	  56028	   dadc	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:36:21 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:38:12 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31180	   1560	  23288	  56028	   dadc	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:38:16 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31180	   1560	  23288	  56028	   dadc	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:38:28 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:38:57 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31172	   1560	  23288	  56020	   dad4	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:39:01 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:39:49 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:39:52 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:41:05 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31108	   1560	  23288	  55956	   da94	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:41:58 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31144	   1560	  23288	  55992	   dab8	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:42:58 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31280	   1560	  23288	  56128	   db40	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:43:49 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31280	   1560	  23288	  56128	   db40	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:43:52 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:45:52 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31280	   1560	  23288	  56128	   db40	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:46:40 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31280	   1560	  23288	  56128	   db40	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:47:53 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+../src/Hash.c: In function 'main':
+../src/Hash.c:82:16: error: 'DELAY' undeclared (first use in this function)
+  for(int i=0;i<DELAY;i++);
+                ^~~~~
+../src/Hash.c:82:16: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/Hash.o] Error 1
+21:48:03 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31280	   1560	  23288	  56128	   db40	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:48:26 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31280	   1560	  23288	  56128	   db40	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:48:48 **** Auto Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Hash.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Hash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Hash_Functinon_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Hash.d" -MT"src/Hash.o" -o "src/Hash.o" "../src/Hash.c"
+'Finished building: ../src/Hash.c'
+' '
+'Building target: Hash_Functinon.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Hash_Functinon_bsp/ps7_cortexa9_0/lib -o "Hash_Functinon.elf"  ./src/Hash.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hash_Functinon.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Hash_Functinon.elf  |tee "Hash_Functinon.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31280	   1560	  23288	  56128	   db40	Hash_Functinon.elf
+'Finished building: Hash_Functinon.elf.size'
+' '
+21:56:07 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:56:54 **** Incremental Build of configuration Debug for project Hash_Functinon ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
