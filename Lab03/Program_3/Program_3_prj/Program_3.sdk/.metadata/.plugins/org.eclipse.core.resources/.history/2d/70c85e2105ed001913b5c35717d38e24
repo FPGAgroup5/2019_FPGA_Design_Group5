@@ -1,0 +1,57 @@
+/*
+ * QuickSort.c
+ *
+ *  Created on: 2019¦~10¤ë12¤é
+ *      Author: User
+ */
+
+#include<stdio.h>
+#define DATA_SIZE 20
+int Partition(int *data ,int p, int r);
+void QuickSort(int *data ,int p,int r);
+
+
+int main(){
+int value;
+int data[DATA_SIZE];
+printf("The numbers you input:\r\n");
+for(int i=0;i<20;i++){
+	scanf("%d",&value);
+	printf("%d\r\n",value);
+	data[i]=value;
+}
+    QuickSort(data,0,DATA_SIZE-1);
+    printf("After Sorted\r\n");
+         for(int i=0;i<DATA_SIZE;i++){     //write result to output file
+        printf("%d\r\n",data[i]);
+    }
+}
+
+int Partition(int *data,int p,int r){
+    int temp;
+
+    int x=data[r];
+    int i=p-1;
+    for(int j=p;j<r;j++){
+        if(data[j]<=x){
+            i=i+1;
+            temp=data[i];
+            data[i]=data[j];
+            data[j]=temp;
+        }
+    }
+    temp=data[i+1];
+    data[i+1]=data[r];
+    data[r]=temp;
+    return i+1;
+
+}
+void QuickSort(int *data,int p,int r){
+    if(p<r){
+        int q=Partition(data,p,r);
+        QuickSort(data,p,q-1);
+        QuickSort(data,q+1,r);
+    }
+}
+
+

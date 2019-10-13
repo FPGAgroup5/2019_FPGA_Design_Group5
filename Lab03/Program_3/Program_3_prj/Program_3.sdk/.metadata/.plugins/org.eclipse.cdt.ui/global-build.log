@@ -1,0 +1,3092 @@
+22:12:23 **** Build of project QuickSort_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:12:45 **** Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18736	   1144	  22576	  42456	   a5d8	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:12:50 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18736	   1144	  22576	  42456	   a5d8	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:14:26 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp:10:9: fatal error: xil_vector: No such file or directory
+ #include<xil_vector>
+         ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:14:39 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:50:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/main.cc:6: multiple definition of `main'; ./src/QuickSort.o:D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/QuickSort.cpp:18: first defined here
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-timesr.o): in function `_times_r':
+timesr.c:(.text+0x2): undefined reference to `_times'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:53: QuickSort.elf] Error 1
+22:16:45 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:50:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:19:12: warning: variable 'start' set but not used [-Wunused-but-set-variable]
+     double start,finish;
+            ^~~~~
+../src/QuickSort.cpp:19:18: warning: variable 'finish' set but not used [-Wunused-but-set-variable]
+     double start,finish;
+                  ^~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/main.cc:6: multiple definition of `main'; ./src/QuickSort.o:D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/QuickSort.cpp:18: first defined here
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-timesr.o): in function `_times_r':
+timesr.c:(.text+0x2): undefined reference to `_times'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:53: QuickSort.elf] Error 1
+22:16:54 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:18:14: error: variable 'std::ofstream fout' has initializer but incomplete type
+ ofstream fout("output.txt");
+              ^
+../src/QuickSort.cpp:20:18: error: variable 'std::ifstream fin' has initializer but incomplete type
+     ifstream fin(argv[i],ios::in);
+                  ^~~~
+../src/QuickSort.cpp:45:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:45:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:48:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:17:38 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:20:10: error: expected primary-expression before 'fout'
+ ofstream fout("output.txt");
+          ^~~~
+../src/QuickSort.cpp:22:18: error: variable 'std::ifstream fin' has initializer but incomplete type
+     ifstream fin(argv[i],ios::in);
+                  ^~~~
+../src/QuickSort.cpp:47:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:47:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:50:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:51:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:51:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:18:04 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:19:11: error: 'value' was not declared in this scope
+      cin<<value;
+           ^~~~~
+../src/QuickSort.cpp:19:11: note: suggested alternative: '_glue'
+      cin<<value;
+           ^~~~~
+           _glue
+../src/QuickSort.cpp:20:14: error: variable 'std::ofstream fout' has initializer but incomplete type
+ ofstream fout("output.txt");
+              ^
+../src/QuickSort.cpp:22:18: error: variable 'std::ifstream fin' has initializer but incomplete type
+     ifstream fin(argv[i],ios::in);
+                  ^~~~
+../src/QuickSort.cpp:47:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:47:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:50:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:18:10 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:19:11: error: 'value' was not declared in this scope
+      cin>>value;
+           ^~~~~
+../src/QuickSort.cpp:19:11: note: suggested alternative: '_glue'
+      cin>>value;
+           ^~~~~
+           _glue
+../src/QuickSort.cpp:20:14: error: variable 'std::ofstream fout' has initializer but incomplete type
+ ofstream fout("output.txt");
+              ^
+../src/QuickSort.cpp:22:18: error: variable 'std::ifstream fin' has initializer but incomplete type
+     ifstream fin(argv[i],ios::in);
+                  ^~~~
+../src/QuickSort.cpp:47:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:47:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:50:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:18:36 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:19:11: error: 'value' was not declared in this scope
+      cin>>value;
+           ^~~~~
+../src/QuickSort.cpp:19:11: note: suggested alternative: '_glue'
+      cin>>value;
+           ^~~~~
+           _glue
+../src/QuickSort.cpp:21:18: error: variable 'std::ifstream fin' has initializer but incomplete type
+     ifstream fin(argv[i],ios::in);
+                  ^~~~
+../src/QuickSort.cpp:46:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:46:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:49:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:50:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:50:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:18:54 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:19:11: error: 'value' was not declared in this scope
+      cin>>value;
+           ^~~~~
+../src/QuickSort.cpp:19:11: note: suggested alternative: '_glue'
+      cin>>value;
+           ^~~~~
+           _glue
+../src/QuickSort.cpp:24:5: error: 'fin' was not declared in this scope
+     fin>>s;
+     ^~~
+../src/QuickSort.cpp:24:5: note: suggested alternative: 'main'
+     fin>>s;
+     ^~~
+     main
+../src/QuickSort.cpp:41:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:41:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:44:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:45:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:45:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:50:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:19:17 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:24:5: error: 'fin' was not declared in this scope
+     fin>>s;
+     ^~~
+../src/QuickSort.cpp:24:5: note: suggested alternative: 'main'
+     fin>>s;
+     ^~~
+     main
+../src/QuickSort.cpp:41:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:41:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:44:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:45:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:45:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:50:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:19:49 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:22:2: error: 'data' was not declared in this scope
+  data[k]=value
+  ^~~~
+../src/QuickSort.cpp:22:7: error: 'k' was not declared in this scope
+  data[k]=value
+       ^
+../src/QuickSort.cpp:25:5: error: 'fin' was not declared in this scope
+     fin>>s;
+     ^~~
+../src/QuickSort.cpp:25:5: note: suggested alternative: 'main'
+     fin>>s;
+     ^~~
+     main
+../src/QuickSort.cpp:25:10: error: 's' was not declared in this scope
+     fin>>s;
+          ^
+../src/QuickSort.cpp:26:5: error: 'ss' was not declared in this scope
+     ss<<s;
+     ^~
+../src/QuickSort.cpp:42:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:42:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:45:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:46:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:46:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:19:52 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:22:2: error: 'data' was not declared in this scope
+  data[k]=value;
+  ^~~~
+../src/QuickSort.cpp:22:7: error: 'k' was not declared in this scope
+  data[k]=value;
+       ^
+../src/QuickSort.cpp:25:5: error: 'fin' was not declared in this scope
+     fin>>s;
+     ^~~
+../src/QuickSort.cpp:25:5: note: suggested alternative: 'main'
+     fin>>s;
+     ^~~
+     main
+../src/QuickSort.cpp:25:10: error: 's' was not declared in this scope
+     fin>>s;
+          ^
+../src/QuickSort.cpp:26:5: error: 'ss' was not declared in this scope
+     ss<<s;
+     ^~
+../src/QuickSort.cpp:42:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:42:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:45:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:46:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:46:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:20:33 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:22:7: error: 'class std::vector<int>' has no member named 'psuhback'; did you mean 'push_back'?
+  data.psuhback(value);
+       ^~~~~~~~
+       push_back
+../src/QuickSort.cpp:25:5: error: 'fin' was not declared in this scope
+     fin>>s;
+     ^~~
+../src/QuickSort.cpp:25:5: note: suggested alternative: 'main'
+     fin>>s;
+     ^~~
+     main
+../src/QuickSort.cpp:25:10: error: 's' was not declared in this scope
+     fin>>s;
+          ^
+../src/QuickSort.cpp:26:5: error: 'ss' was not declared in this scope
+     ss<<s;
+     ^~
+../src/QuickSort.cpp:42:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:42:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:45:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:46:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:46:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:20:39 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:22:7: error: 'class std::vector<int>' has no member named 'pushback'; did you mean 'push_back'?
+  data.pushback(value);
+       ^~~~~~~~
+       push_back
+../src/QuickSort.cpp:25:5: error: 'fin' was not declared in this scope
+     fin>>s;
+     ^~~
+../src/QuickSort.cpp:25:5: note: suggested alternative: 'main'
+     fin>>s;
+     ^~~
+     main
+../src/QuickSort.cpp:25:10: error: 's' was not declared in this scope
+     fin>>s;
+          ^
+../src/QuickSort.cpp:26:5: error: 'ss' was not declared in this scope
+     ss<<s;
+     ^~
+../src/QuickSort.cpp:42:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:42:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:45:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:46:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:46:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:20:59 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:25:5: error: 'fin' was not declared in this scope
+     fin>>s;
+     ^~~
+../src/QuickSort.cpp:25:5: note: suggested alternative: 'main'
+     fin>>s;
+     ^~~
+     main
+../src/QuickSort.cpp:25:10: error: 's' was not declared in this scope
+     fin>>s;
+          ^
+../src/QuickSort.cpp:26:5: error: 'ss' was not declared in this scope
+     ss<<s;
+     ^~
+../src/QuickSort.cpp:42:11: error: 'clock' was not declared in this scope
+     start=clock();
+           ^~~~~
+../src/QuickSort.cpp:42:11: note: suggested alternative: 'clock_t'
+     start=clock();
+           ^~~~~
+           clock_t
+../src/QuickSort.cpp:45:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:46:9: error: 'fout' was not declared in this scope
+         fout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.cpp:46:9: note: suggested alternative: 'fputs'
+         fout<<data[i]<<endl;
+         ^~~~
+         fputs
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:21:19 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:29:5: error: 'fin' was not declared in this scope
+     fin.close();
+     ^~~
+../src/QuickSort.cpp:29:5: note: suggested alternative: 'main'
+     fin.close();
+     ^~~
+     main
+../src/QuickSort.cpp:17:12: warning: unused variable 'start' [-Wunused-variable]
+     double start,finish;
+            ^~~~~
+../src/QuickSort.cpp:17:18: warning: unused variable 'finish' [-Wunused-variable]
+     double start,finish;
+                  ^~~~~~
+../src/QuickSort.cpp:19:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:32:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:21:22 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:17:12: warning: unused variable 'start' [-Wunused-variable]
+     double start,finish;
+            ^~~~~
+../src/QuickSort.cpp:17:18: warning: unused variable 'finish' [-Wunused-variable]
+     double start,finish;
+                  ^~~~~~
+../src/QuickSort.cpp:19:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+../src/QuickSort.cpp: At global scope:
+../src/QuickSort.cpp:31:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:21:36 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:30:45: error: a function-definition is not allowed here before '{' token
+ int Partition(vector<int> &data,int p,int r){
+                                             ^
+../src/QuickSort.cpp:49:46: error: a function-definition is not allowed here before '{' token
+ void QuickSort(vector<int> &data,int p,int r){
+                                              ^
+../src/QuickSort.cpp:17:12: warning: unused variable 'start' [-Wunused-variable]
+     double start,finish;
+            ^~~~~
+../src/QuickSort.cpp:17:18: warning: unused variable 'finish' [-Wunused-variable]
+     double start,finish;
+                  ^~~~~~
+../src/QuickSort.cpp:19:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+../src/QuickSort.cpp:55:1: error: expected '}' at end of input
+ }
+ ^
+../src/QuickSort.cpp:16:32: note: to match this '{'
+ int main(int argc,char* argv[]){
+                                ^
+make: *** [src/subdir.mk:30: src/QuickSort.o] Error 1
+22:21:44 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main(int, char**)':
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:17:12: warning: unused variable 'start' [-Wunused-variable]
+     double start,finish;
+            ^~~~~
+../src/QuickSort.cpp:17:18: warning: unused variable 'finish' [-Wunused-variable]
+     double start,finish;
+                  ^~~~~~
+../src/QuickSort.cpp:19:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/main.cc:6: multiple definition of `main'; ./src/QuickSort.o:D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/QuickSort.cpp:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:53: QuickSort.elf] Error 1
+22:21:55 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:17:12: warning: unused variable 'start' [-Wunused-variable]
+     double start,finish;
+            ^~~~~
+../src/QuickSort.cpp:17:18: warning: unused variable 'finish' [-Wunused-variable]
+     double start,finish;
+                  ^~~~~~
+../src/QuickSort.cpp:19:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/main.cc:6: multiple definition of `main'; ./src/QuickSort.o:D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/QuickSort.cpp:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:53: QuickSort.elf] Error 1
+22:37:12 **** Clean-only build of configuration Debug for project QuickSort ****
+make clean 
+rm -rf  ./src/main.d  ./src/QuickSort.o ./src/main.o  ./src/QuickSort.d  QuickSort.elf.size  QuickSort.elf
+' '
+22:37:12 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:17:12: warning: unused variable 'start' [-Wunused-variable]
+     double start,finish;
+            ^~~~~
+../src/QuickSort.cpp:17:18: warning: unused variable 'finish' [-Wunused-variable]
+     double start,finish;
+                  ^~~~~~
+../src/QuickSort.cpp:19:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 560025	   2860	  29772	 592657	  90b11	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:37:28 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:25:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:18:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 560025	   2860	  29772	 592657	  90b11	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:37:43 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:25:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 560025	   2860	  29772	 592657	  90b11	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:37:47 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:25:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:18:12: warning: unused variable 'array_size' [-Wunused-variable]
+ int value, array_size;
+            ^~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 560025	   2860	  29772	 592657	  90b11	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:38:07 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:17:22: error: 'array_size' was not declared in this scope
+     vector<int> data(array_size);
+                      ^~~~~~~~~~
+../src/QuickSort.cpp:20:13: error: 'i' was not declared in this scope
+ for(int i=0;i<20;i++){
+             ^
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+../src/QuickSort.cpp:18:5: warning: unused variable 'value' [-Wunused-variable]
+ int value;
+     ^~~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:38:09 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:17:22: error: 'array_size' was not declared in this scope
+     vector<int> data(array_size);
+                      ^~~~~~~~~~
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:38:22 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:17:22: error: 'array_size' was not declared in this scope
+     vector<int> data(array_size);
+                      ^~~~~~~~~~
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:38:39 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:27:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 558125	   2860	  29764	 590749	  9039d	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:38:42 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:26:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 558125	   2860	  29764	 590749	  9039d	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:39:17 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.cpp"
+../src/QuickSort.cpp: In function 'int main()':
+../src/QuickSort.cpp:25:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+          for(int i=0;i<data.size();i++){     //write result to output file
+                      ~^~~~~~~~~~~~
+'Finished building: ../src/QuickSort.cpp'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 558125	   2860	  29764	 590749	  9039d	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:42:39 **** Build of project QuickSort_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project QuickSort ****
+
+Nothing to build for project QuickSort
+22:43:03 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ../../QuickSort_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): in function `_start':
+D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort_bsp\ps7_cortexa9_0\libsrc\standalone_v7_0\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: QuickSort.elf] Error 1
+22:43:06 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:8:9: fatal error: iostream: No such file or directory
+ #include<iostream>
+         ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:43:36 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:9:9: fatal error: vector: No such file or directory
+ #include<vector>
+         ^~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:43:42 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:10:1: error: unknown type name 'using'
+ using namespace std;
+ ^~~~~
+../src/QuickSort.c:10:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'std'
+ using namespace std;
+                 ^~~
+../src/QuickSort.c:11:21: error: expected ')' before '<' token
+ int Partition(vector<int> &,int ,int);
+                     ^
+                     )
+../src/QuickSort.c:12:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &,int ,int);
+                      ^
+                      )
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:18:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:18:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:20:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:21:2: error: 'data' undeclared (first use in this function)
+  data[i]=value;
+  ^~~~
+../src/QuickSort.c:24:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:17:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=20;
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:30:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:49:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:43:45 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:11:21: error: expected ')' before '<' token
+ int Partition(vector<int> &,int ,int);
+                     ^
+                     )
+../src/QuickSort.c:12:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &,int ,int);
+                      ^
+                      )
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:18:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:18:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:20:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:21:2: error: 'data' undeclared (first use in this function)
+  data[i]=value;
+  ^~~~
+../src/QuickSort.c:24:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:17:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=20;
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:30:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:49:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:44:29 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:11:15: error: expected declaration specifiers or '...' before '&' token
+ int Partition(&data ,int);
+               ^
+../src/QuickSort.c:12:16: error: expected declaration specifiers or '...' before '&' token
+ void QuickSort(&data ,int);
+                ^
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:18:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:18:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:20:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:21:2: error: 'data' undeclared (first use in this function)
+  data[i]=value;
+  ^~~~
+../src/QuickSort.c:24:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:17:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=20;
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:30:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:49:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:44:53 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:11:19: error: expected ';', ',' or ')' before '&' token
+ int Partition(int &data ,int);
+                   ^
+../src/QuickSort.c:12:20: error: expected ';', ',' or ')' before '&' token
+ void QuickSort(int &data ,int);
+                    ^
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:18:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:18:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:20:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:21:2: error: 'data' undeclared (first use in this function)
+  data[i]=value;
+  ^~~~
+../src/QuickSort.c:24:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:17:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=20;
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:30:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:49:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:46:20 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:12:20: error: expected ')' before '&' token
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                    ^
+                    )
+../src/QuickSort.c:12:39: error: expected ';', ',' or ')' before 'int'
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                                       ^~~
+../src/QuickSort.c:13:21: error: expected ')' before '&' token
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                     ^
+                     )
+../src/QuickSort.c:13:40: error: expected ';', ',' or ')' before 'int'
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                                        ^~~
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:22:2: error: 'data' undeclared (first use in this function)
+  data[i]=value;
+  ^~~~
+../src/QuickSort.c:25:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=20;
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:31:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:50:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:46:23 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:12:20: error: expected ')' before '&' token
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                    ^
+                    )
+../src/QuickSort.c:12:39: error: expected ';', ',' or ')' before 'int'
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                                       ^~~
+../src/QuickSort.c:13:21: error: expected ')' before '&' token
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                     ^
+                     )
+../src/QuickSort.c:13:40: error: expected ';', ',' or ')' before 'int'
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                                        ^~~
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:25:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=(&data)[DATA_SIZE];
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:31:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:50:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:46:37 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:12:20: error: expected ')' before '&' token
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                    ^
+                    )
+../src/QuickSort.c:12:39: error: expected ';', ',' or ')' before 'int'
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                                       ^~~
+../src/QuickSort.c:13:21: error: expected ')' before '&' token
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                     ^
+                     )
+../src/QuickSort.c:13:40: error: expected ';', ',' or ')' before 'int'
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                                        ^~~
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:11:21: error: expected ']' before ';' token
+ #define DATA_SIZE 20;
+                     ^
+../src/QuickSort.c:18:25: note: in expansion of macro 'DATA_SIZE'
+ int  array_size=(&data)[DATA_SIZE];
+                         ^~~~~~~~~
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:25:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=(&data)[DATA_SIZE];
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:31:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:50:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:46:40 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:12:20: error: expected ')' before '&' token
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                    ^
+                    )
+../src/QuickSort.c:12:39: error: expected ';', ',' or ')' before 'int'
+ int Partition(int (&data)[DATA_SIZE] ,int);
+                                       ^~~
+../src/QuickSort.c:13:21: error: expected ')' before '&' token
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                     ^
+                     )
+../src/QuickSort.c:13:40: error: expected ';', ',' or ')' before 'int'
+ void QuickSort(int (&data)[DATA_SIZE] ,int);
+                                        ^~~
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:25:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=(&data)[DATA_SIZE];
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:31:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:50:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:47:19 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:12:20: error: expected ')' before '&' token
+ int Partition(int (&data)[DATA_SIZE] ,int p, int q);
+                    ^
+                    )
+../src/QuickSort.c:12:39: error: expected ';', ',' or ')' before 'int'
+ int Partition(int (&data)[DATA_SIZE] ,int p, int q);
+                                       ^~~
+../src/QuickSort.c:13:21: error: expected ')' before '&' token
+ void QuickSort(int (&data)[DATA_SIZE] ,int p,int r);
+                     ^
+                     )
+../src/QuickSort.c:13:40: error: expected ';', ',' or ')' before 'int'
+ void QuickSort(int (&data)[DATA_SIZE] ,int p,int r);
+                                        ^~~
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:25:5: warning: implicit declaration of function 'QuickSort'; did you mean 'quick_exit'? [-Wimplicit-function-declaration]
+     QuickSort(data,0,data.size()-1);
+     ^~~~~~~~~
+     quick_exit
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=(&data)[DATA_SIZE];
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:31:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:50:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:48:45 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=(&data)[DATA_SIZE];
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:31:21: error: expected ')' before '<' token
+ int Partition(vector<int> &data,int p,int r){
+                     ^
+                     )
+../src/QuickSort.c:50:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:49:27 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=(&data)[DATA_SIZE];
+      ^~~~~~~~~~
+../src/QuickSort.c: At top level:
+../src/QuickSort.c:50:22: error: expected ')' before '<' token
+ void QuickSort(vector<int> &data,int p,int r){
+                      ^
+                      )
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:49:34 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:19:1: error: 'vector' undeclared (first use in this function)
+ vector<int> data(array_size);
+ ^~~~~~
+../src/QuickSort.c:19:8: error: expected expression before 'int'
+ vector<int> data(array_size);
+        ^~~
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:6: warning: unused variable 'array_size' [-Wunused-variable]
+ int  array_size=(&data)[DATA_SIZE];
+      ^~~~~~~~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:49:50 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:19: error: 'data' undeclared (first use in this function)
+ int  array_size=(&data)[DATA_SIZE];
+                   ^~~~
+../src/QuickSort.c:18:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:21:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:25:26: error: request for member 'size' in something not a structure or union
+     QuickSort(data,0,data.size()-1);
+                          ^
+../src/QuickSort.c:26:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:27:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:27:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:50:00 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:10: error: 'array_size' undeclared (first use in this function)
+ int data[array_size];
+          ^~~~~~~~~~
+../src/QuickSort.c:18:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:20:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+../src/QuickSort.c:18:5: warning: unused variable 'data' [-Wunused-variable]
+ int data[array_size];
+     ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:50:06 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:20:2: error: 'cin' undeclared (first use in this function); did you mean 'main'?
+  cin>>value;
+  ^~~
+  main
+../src/QuickSort.c:20:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:24:26: error: request for member 'size' in something not a structure or union
+     QuickSort(data,0,data.size()-1);
+                          ^
+../src/QuickSort.c:25:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:50:20 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:20:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf()value;
+  ^~~~~
+../src/QuickSort.c:20:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:20:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:9:1:
++#include <stdio.h>
+ //#include<vector>
+../src/QuickSort.c:20:2:
+  scanf()value;
+  ^~~~~
+../src/QuickSort.c:20:2: error: too few arguments to function 'scanf'
+../src/QuickSort.c:20:9: error: expected ';' before 'value'
+  scanf()value;
+         ^~~~~
+         ;
+../src/QuickSort.c:24:26: error: request for member 'size' in something not a structure or union
+     QuickSort(data,0,data.size()-1);
+                          ^
+../src/QuickSort.c:25:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:50:31 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:20:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",value)value;
+  ^~~~~
+../src/QuickSort.c:20:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:20:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:9:1:
++#include <stdio.h>
+ //#include<vector>
+../src/QuickSort.c:20:2:
+  scanf("%d",value)value;
+  ^~~~~
+../src/QuickSort.c:20:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",value)value;
+         ~^  ~~~~~
+../src/QuickSort.c:20:19: error: expected ';' before 'value'
+  scanf("%d",value)value;
+                   ^~~~~
+                   ;
+../src/QuickSort.c:24:26: error: request for member 'size' in something not a structure or union
+     QuickSort(data,0,data.size()-1);
+                          ^
+../src/QuickSort.c:25:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:50:38 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:20:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",value);
+  ^~~~~
+../src/QuickSort.c:20:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:20:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:9:1:
++#include <stdio.h>
+ //#include<vector>
+../src/QuickSort.c:20:2:
+  scanf("%d",value);
+  ^~~~~
+../src/QuickSort.c:20:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",value);
+         ~^  ~~~~~
+../src/QuickSort.c:24:26: error: request for member 'size' in something not a structure or union
+     QuickSort(data,0,data.size()-1);
+                          ^
+../src/QuickSort.c:25:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:51:27 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:20:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:20:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:20:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:9:1:
++#include <stdio.h>
+ //#include<vector>
+../src/QuickSort.c:20:2:
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:24:26: error: request for member 'size' in something not a structure or union
+     QuickSort(data,0,data.size()-1);
+                          ^
+../src/QuickSort.c:25:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:51:41 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:8:9: fatal error: stdlio.h: No such file or directory
+ #include<stdlio.h>
+         ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:51:45 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:24:26: error: request for member 'size' in something not a structure or union
+     QuickSort(data,0,data.size()-1);
+                          ^
+../src/QuickSort.c:25:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:51:58 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:25:28: error: request for member 'size' in something not a structure or union
+          for(int i=0;i<data.size();i++){     //write result to output file
+                            ^
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:52:03 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:26:9: error: 'cout' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+         ^~~~
+../src/QuickSort.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:26:24: error: 'endl' undeclared (first use in this function)
+         cout<<data[i]<<endl;
+                        ^~~~
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+22:52:45 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:52:58 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:53:35 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:56:26 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:18:7: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+ value=malloc(100);
+       ^~~~~~
+../src/QuickSort.c:18:7: warning: incompatible implicit declaration of built-in function 'malloc'
+../src/QuickSort.c:18:7: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+../src/QuickSort.c:9:1:
++#include <stdlib.h>
+ //#include<vector>
+../src/QuickSort.c:18:7:
+ value=malloc(100);
+       ^~~~~~
+../src/QuickSort.c:18:6: warning: assignment to 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+ value=malloc(100);
+      ^
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98140	   2584	  23328	 124052	  1e494	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+22:57:41 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:01:47 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:02:35 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:02:46 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:21:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:21:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:21:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:1:1:
++#include <stdio.h>
+ /*
+../src/QuickSort.c:21:2:
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:27:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+         printf("%d\r\n",data[i]);
+         ^~~~~~
+../src/QuickSort.c:27:9: warning: incompatible implicit declaration of built-in function 'printf'
+../src/QuickSort.c:27:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:02:53 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:21:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:21:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:21:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:10:1:
++#include <stdio.h>
+ //#include<vector>
+../src/QuickSort.c:21:2:
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:27:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+         printf("%d\r\n",data[i]);
+         ^~~~~~
+../src/QuickSort.c:27:9: warning: incompatible implicit declaration of built-in function 'printf'
+../src/QuickSort.c:27:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:03:06 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:21:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:21:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:21:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:10:1:
++#include <stdio.h>
+ //#include<vector>
+../src/QuickSort.c:21:2:
+  scanf("%d",&value);
+  ^~~~~
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86132	   2584	  23328	 112044	  1b5ac	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:03:16 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:21:2: warning: implicit declaration of function 'xil_scanf'; did you mean 'xil_printf'? [-Wimplicit-function-declaration]
+  xil_scanf("%d",&value);
+  ^~~~~~~~~
+  xil_printf
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/lectures/fpgasoftware/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/QuickSort.o: in function `main':
+D:\Lectures\FPGA\Lab03\Program_3\Program_3.sdk\QuickSort\Debug/../src/QuickSort.c:21: undefined reference to `xil_scanf'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: QuickSort.elf] Error 1
+23:03:28 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:21:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d",&value);
+  ^~~~~
+../src/QuickSort.c:21:2: warning: incompatible implicit declaration of built-in function 'scanf'
+../src/QuickSort.c:21:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+../src/QuickSort.c:10:1:
++#include <stdio.h>
+ //#include<vector>
+../src/QuickSort.c:21:2:
+  scanf("%d",&value);
+  ^~~~~
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  86132	   2584	  23328	 112044	  1b5ac	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:06:51 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:06:59 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:21:14: warning: passing argument 2 of 'sscanf' from incompatible pointer type [-Wincompatible-pointer-types]
+  sscanf("%d",&value);
+              ^~~~~~
+In file included from ../src/QuickSort.c:8:
+d:\lectures\fpgasoftware\sdk\2019.1\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:204:37: note: expected 'const char * restrict' but argument is of type 'int *'
+ int sscanf (const char *__restrict, const char *__restrict, ...)
+                                     ^
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102448	   2584	  23328	 128360	  1f568	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:07:06 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:13:24 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:10:10: fatal error: xuartlite.h: No such file or directory
+ #include "xuartlite.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:13:33 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:14:42 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:14:50 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:10:10: fatal error: xuartlite_l.h: No such file or directory
+ #include "xuartlite_l.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:18:05 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c:10:10: fatal error: xuartlite_l.h: No such file or directory
+ #include <xuartlite_l.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:18:15 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:18:34 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:25:7: error: 'XUartLite_RecvByte' undeclared (first use in this function)
+ value=XUartLite_RecvByte
+       ^~~~~~~~~~~~~~~~~~
+../src/QuickSort.c:25:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/QuickSort.c:25:25: error: expected ';' before 'QuickSort'
+ value=XUartLite_RecvByte
+                         ^
+                         ;
+     QuickSort(data,0,DATA_SIZE-1);
+     ~~~~~~~~~            
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:18:49 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:19:27 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:23:7: error: 'i' undeclared (first use in this function)
+  data[i]=value;
+       ^
+../src/QuickSort.c:23:7: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:19:31 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:23:7: error: 'i' undeclared (first use in this function)
+  data[i]=value;
+       ^
+../src/QuickSort.c:23:7: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:19:41 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98116	   2584	  23328	 124028	  1e47c	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:19:44 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:19:55 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:20:08 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98116	   2584	  23328	 124028	  1e47c	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:20:17 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:21:06 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98116	   2584	  23328	 124028	  1e47c	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:21:23 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:22:04 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:22:23 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:22:36 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:23:06 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98180	   2584	  23328	 124092	  1e4bc	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:23:58 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:27:27: warning: missing terminating " character
+     printf("After Sorted:"")
+                           ^
+../src/QuickSort.c:27:27: error: missing terminating " character
+     printf("After Sorted:"")
+                           ^~
+../src/QuickSort.c:27:27: error: expected ')' before 'for'
+     printf("After Sorted:"")
+                           ^
+                           )
+          for(int i=0;i<DATA_SIZE;i++){     //write result to output file
+          ~~~               
+../src/QuickSort.c:30:6: error: expected ';' before '}' token
+     }
+      ^
+      ;
+ }
+ ~     
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:24:01 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:27:28: error: expected ';' before 'for'
+     printf("After Sorted:")
+                            ^
+                            ;
+          for(int i=0;i<DATA_SIZE;i++){     //write result to output file
+          ~~~                
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:24:07 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+../src/QuickSort.c: In function 'main':
+../src/QuickSort.c:27:27: error: expected ';' before 'for'
+     printf("After Sorted")
+                           ^
+                           ;
+          for(int i=0;i<DATA_SIZE;i++){     //write result to output file
+          ~~~               
+make: *** [src/subdir.mk:23: src/QuickSort.o] Error 1
+23:24:13 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98260	   2584	  23328	 124172	  1e50c	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:24:47 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98276	   2584	  23328	 124188	  1e51c	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:25:24 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:25:34 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:25:53 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:25:59 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:27:35 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:29:50 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:29:58 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:31:40 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:31:50 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:32:07 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:32:32 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:32:39 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:32:43 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:33:44 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:34:31 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:35:12 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:35:28 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:35:43 **** Auto Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/QuickSort.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/QuickSort.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/QuickSort.d" -MT"src/QuickSort.o" -o "src/QuickSort.o" "../src/QuickSort.c"
+'Finished building: ../src/QuickSort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/QuickSort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  98344	   2584	  23328	 124256	  1e560	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+23:35:51 **** Incremental Build of configuration Debug for project QuickSort ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
