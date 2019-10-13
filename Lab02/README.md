@@ -6,6 +6,7 @@ E24056645、 E24053061、 E24056849
 ### Program 1 - 使用 PWM 產生彩虹七色
 ##### 系統設計圖
 ![](images/block_diagram.png)
+
 ##### 設計概念說明
 RGB_LED藉由三個RGB輸入(0~255)，決定三種顏色輸出的脈波長度，也決定了我們看到的顏色。而PWM_Decoder就是決定這三個RGB的值，所以我們只要控制PWM_Decoder，就可以決定我們所看到的顏色，因此Program2、Bonus也都只要控制PWM_Decoder就好。
 
@@ -27,6 +28,7 @@ FSM State Diagram
 ### Program 2 - 使用單色 LED 實作呼吸燈
 ##### 系統設計圖
 ![](images/block_diagram2.png)
+
 ##### 設計概念說明
 這題一樣先將PWM_Decoder及LED打包成2個IP，再將兩個IP用Block Diagram接起來。
 
@@ -38,6 +40,7 @@ FSM State Diagram
 ### Bonus - 電競 RGB 呼吸燈
 ##### 系統設計圖
 ![](images/block_diagram.png)
+
 ##### 設計概念說明
 我們設計RGB LED最暗到最亮需時2秒，最亮到最暗也是2秒。由於RGB三個訊號的最大值(最亮)不一樣，這三個訊號在遞增或遞減時週期也會不同，需要獨立計數。另外我們透過14個state之間的循環，代表七種顏色和遞增遞減的狀態。當RGB其中某一個值到達最大值時，將會轉換成下一個state，例如state=Red_bright(紅色，漸亮)，我們取R作為標準，當R到達255的同時，state會變成Red_fade(紅色，漸暗)。
 
