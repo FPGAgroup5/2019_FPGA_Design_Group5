@@ -7,7 +7,7 @@ E24056645、 E24053061、 E24056849
 ##### 系統設計圖
 ![](images/block_diagram.png)
 ##### 設計概念說明
-RGB_LED藉由三個RGB輸入(0~255)，決定三種顏色輸出的脈波長度，也決定了我們看到的顏色。而PWM_Decoder就是決定RGB(0~255)的輸出，所以我們只要控制PWM_Decoder，就可以決定我們所看到的顏色，因此Program2、Bonus也都只要控制PWM_Decoder就好。
+RGB_LED藉由三個RGB輸入(0~255)，決定三種顏色輸出的脈波長度，也決定了我們看到的顏色。而PWM_Decoder就是決定這三個RGB的值，所以我們只要控制PWM_Decoder，就可以決定我們所看到的顏色，因此Program2、Bonus也都只要控制PWM_Decoder就好。
 
 我們設計RGB LED燈每2秒換一種顏色，並採用FSM。sw狀態從000到110循環，每經過2秒換一個state，每個state都決定一種顏色，對應不同的RGB輸出，FSM和RGB的數值皆附在下方。
 
