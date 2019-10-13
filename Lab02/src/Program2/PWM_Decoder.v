@@ -1,9 +1,7 @@
 module PWM_Decoder (
   input  clk,
   input  rst,
-  output [7:0] R_time_out,
-  output [7:0] G_time_out,
-  output [7:0] B_time_out
+  output [7:0] LED_time_out
 );
   reg [7:0] state;
   reg [7:0] next_state;
@@ -48,9 +46,6 @@ module PWM_Decoder (
   
   assign next_count = (count >= 1000000)? 20'd0 : count + 1;
 
-  assign R_time_out = 8'd0;
-  assign G_time_out = 8'd0;
-  assign B_time_out = state;
-
+  assign LED_time_out = state;
 
 endmodule // Decoder
