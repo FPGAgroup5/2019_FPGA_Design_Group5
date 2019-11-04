@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\FPGA_Project\Lab4\project_4_hw\project_4_hw.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 沒有使用權限

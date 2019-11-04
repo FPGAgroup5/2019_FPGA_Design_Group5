@@ -1,0 +1,33 @@
+
+
+/***************************** Include Files *******************************/
+#include "hash.h"
+
+/************************** Function Definitions ***************************/
+
+void hash(UINTPTR baseAddr, char str[]){
+
+
+	u32 length = strlen(str);
+	for(int i = 0; i < 8; i++){
+		if(i < length){
+			HASH_mWriteReg(baseAddr, i, str[i]);
+		}
+		else{
+			HASH_mWriteReg(baseAddr, i, 0);
+		}
+	}
+	HASH_mWriteReg(baseAddr, 8, length);
+	HASH_mWriteReg(baseAddr, 12, 1);
+
+	while(1){
+		if(HASH_mReadReg(baseAddr, 20) == 1){
+			printf("%d", HASH_mReadReg(baseAddr, 16));
+			break;
+		}
+	}
+	
+	printf("\r\n");
+}
+
+
