@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov  5 00:41:17 2019
+# Process ID: 2948
+# Current directory: D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10404 D:\Github\2019_FPGA_Design_Group5\Lab04\project_4_hw\project_4_hw.xpr
+# Log file: D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw/vivado.log
+# Journal file: D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw/project_4_hw.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.sdk -hwspec D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.sdk/design_1_wrapper.hdf

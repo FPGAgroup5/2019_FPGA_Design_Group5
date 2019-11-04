@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov  5 00:41:17 2019
+# Process ID: 2948
+# Current directory: D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10404 D:\Github\2019_FPGA_Design_Group5\Lab04\project_4_hw\project_4_hw.xpr
+# Log file: D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw/vivado.log
+# Journal file: D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/2019_FPGA_Design_Group5/Lab04/project_4_hw/project_4_hw.xpr
+INFO: [Project 1-313] Project file moved from 'D:/FPGA_Project/Lab4/project_4_hw' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/hash_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/hash_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/hash_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/hash_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/hash_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/PWM_controller_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/hash_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/hash_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/parity_generator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/arithmetic_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/2019_FPGA_Design_Group5/Lab04/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:01:11 . Memory (MB): peak = 745.598 ; gain = 181.188
+update_compile_order -fileset sources_1
+close_project
+open_project D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/hash_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/FPGA_Project/Lab4/ip_repo/hash_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/hash_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/FPGA_Project/Lab4/ip_repo/hash_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/hash_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/PWM_controller_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/FPGA_Project/Lab4/ip_repo/hash_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/hash_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/parity_generator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/arithmetic_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_Project/Lab4/ip_repo/sorting_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:33 . Memory (MB): peak = 994.234 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.sdk -hwspec D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.sdk -hwspec D:/FPGA_Project/Lab4/project_4_hw/project_4_hw.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  5 01:18:58 2019...
