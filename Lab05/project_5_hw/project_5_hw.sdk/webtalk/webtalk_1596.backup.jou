@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Sat Nov 16 04:37:27 2019
+# Process ID: 1596
+# Current directory: D:/FPGA_HW/project_5_hw/project_5_hw.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/FPGA_HW/project_5_hw/project_5_hw.sdk/webtalk/webtalk.log
+# Journal file: D:/FPGA_HW/project_5_hw/project_5_hw.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

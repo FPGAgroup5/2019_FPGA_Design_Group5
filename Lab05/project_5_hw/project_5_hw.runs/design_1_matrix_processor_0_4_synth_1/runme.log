@@ -1,0 +1,479 @@
+
+*** Running vivado
+    with args -log design_1_matrix_processor_0_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_matrix_processor_0_4.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_1_matrix_processor_0_4.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_HW/ip_repo/matrix_processor_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/FPGA_HW/ip_repo/matrix_processor_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_HW/ip_repo/matrix_processor_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/FPGA_HW/ip_repo/matrix_processor_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_HW/ip_repo/matrix_processor_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/FPGA_HW/ip_repo/matrix_processor_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_HW/ip_repo/matrix_processor_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.1/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 301.465 ; gain = 0.000
+Command: synth_design -top design_1_matrix_processor_0_4 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12044 
+WARNING: [Synth 8-6901] identifier 'cmd_done' is used before its declaration [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0_S00_AXI.v:373]
+WARNING: [Synth 8-6901] identifier 'data_out' is used before its declaration [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0_S00_AXI.v:374]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 748.199 ; gain = 184.320
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_matrix_processor_0_4' [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ip/design_1_matrix_processor_0_4/synth/design_1_matrix_processor_0_4.v:57]
+INFO: [Synth 8-6157] synthesizing module 'matrix_processor_v1_0' [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'matrix_processor_v1_0_S00_AXI' [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0_S00_AXI.v:231]
+INFO: [Synth 8-226] default block is never used [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0_S00_AXI.v:372]
+INFO: [Synth 8-6157] synthesizing module 'memory_ctrl' [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/memory_ctrl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'matrix_ctrl' [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_ctrl.v:2]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter read bound to: 1 - type: integer 
+	Parameter dummy bound to: 2 - type: integer 
+	Parameter write bound to: 3 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_ctrl.v:59]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_ctrl.v:91]
+INFO: [Synth 8-6157] synthesizing module 'matrix_processor' [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_processor.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_processor' (1#1) [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_processor.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mem256X8' [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/mem256X8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mem256X8' (2#1) [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/mem256X8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_ctrl' (3#1) [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_ctrl.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_ctrl' (4#1) [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/memory_ctrl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_processor_v1_0_S00_AXI' (5#1) [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'matrix_processor_v1_0' (6#1) [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/hdl/matrix_processor_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_matrix_processor_0_4' (7#1) [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ip/design_1_matrix_processor_0_4/synth/design_1_matrix_processor_0_4.v:57]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[7]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[6]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[5]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[4]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[3]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[2]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 789.926 ; gain = 226.047
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 789.926 ; gain = 226.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 789.926 ; gain = 226.047
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ip/design_1_matrix_processor_0_4/src/pynq-z2_v1.0.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ip/design_1_matrix_processor_0_4/src/pynq-z2_v1.0.xdc] for cell 'inst'
+Parsing XDC File [D:/FPGA_HW/project_5_hw/project_5_hw.runs/design_1_matrix_processor_0_4_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/FPGA_HW/project_5_hw/project_5_hw.runs/design_1_matrix_processor_0_4_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 929.520 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.647 . Memory (MB): peak = 939.570 ; gain = 10.051
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  D:/FPGA_HW/project_5_hw/project_5_hw.runs/design_1_matrix_processor_0_4_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_processor.v:22]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_processor.v:22]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_processor.v:22]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/FPGA_HW/project_5_hw/project_5_hw.srcs/sources_1/bd/design_1/ipshared/4b7d/src/matrix_processor.v:22]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'matrix_ctrl'
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3971] The signal "mem256X8:/mem_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                    read |                               01 |                               01
+                   dummy |                               10 |                               10
+                   write |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'matrix_ctrl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                8 Bit    Registers := 12    
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 6     
++---RAMs : 
+	               2K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   6 Input      8 Bit        Muxes := 17    
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   3 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 26    
+	  10 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module matrix_processor 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 4     
++---Muxes : 
+	   6 Input      8 Bit        Muxes := 17    
+Module mem256X8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---RAMs : 
+	               2K Bit         RAMs := 1     
+Module matrix_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 10    
++---Muxes : 
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   3 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 20    
+	  10 Input      1 Bit        Muxes := 9     
+Module memory_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module matrix_processor_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[7]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[6]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[5]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[4]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[3]
+WARNING: [Synth 8-3331] design memory_ctrl has unconnected port cmd[2]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design matrix_processor_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3971] The signal "inst/\matrix_processor_v1_0_S00_AXI_inst/n_ctrl1 /matrix_ctrl_i/mem_i/mem_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3886] merging instance 'inst/matrix_processor_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/matrix_processor_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\matrix_processor_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/matrix_processor_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/matrix_processor_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\matrix_processor_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|mem256X8:   | mem_reg    | 256 x 8(NO_CHANGE)     | W | R | 256 x 8(NO_CHANGE)     | W | R | Port A and B     | 1      | 0      | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/matrix_processor_v1_0_S00_AXI_inst/n_ctrl1/matrix_ctrl_i/mem_i/i_0/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/matrix_processor_v1_0_S00_AXI_inst/n_ctrl1/matrix_ctrl_i/mem_i/i_0/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|mem256X8:   | mem_reg    | 256 x 8(NO_CHANGE)     | W | R | 256 x 8(NO_CHANGE)     | W | R | Port A and B     | 1      | 0      | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/matrix_processor_v1_0_S00_AXI_inst/n_ctrl1/matrix_ctrl_i/mem_i/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/matrix_processor_v1_0_S00_AXI_inst/n_ctrl1/matrix_ctrl_i/mem_i/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 939.570 ; gain = 375.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    70|
+|2     |LUT1     |     4|
+|3     |LUT2     |   170|
+|4     |LUT3     |    10|
+|5     |LUT4     |   126|
+|6     |LUT5     |    56|
+|7     |LUT6     |   264|
+|8     |MUXF7    |     7|
+|9     |RAMB18E1 |     1|
+|10    |FDCE     |    81|
+|11    |FDRE     |   114|
+|12    |FDSE     |     1|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------------------------------+------------------------------+------+
+|      |Instance                               |Module                        |Cells |
++------+---------------------------------------+------------------------------+------+
+|1     |top                                    |                              |   904|
+|2     |  inst                                 |matrix_processor_v1_0         |   904|
+|3     |    matrix_processor_v1_0_S00_AXI_inst |matrix_processor_v1_0_S00_AXI |   904|
+|4     |      n_ctrl1                          |memory_ctrl                   |   734|
+|5     |        matrix_ctrl_i                  |matrix_ctrl                   |   715|
+|6     |          mem_i                        |mem256X8                      |     1|
+|7     |          matrix_processor_i           |matrix_processor              |   595|
++------+---------------------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:41 . Memory (MB): peak = 944.215 ; gain = 230.691
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 944.215 ; gain = 380.336
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 952.813 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:01:02 . Memory (MB): peak = 952.813 ; gain = 651.348
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 952.813 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_HW/project_5_hw/project_5_hw.runs/design_1_matrix_processor_0_4_synth_1/design_1_matrix_processor_0_4.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_matrix_processor_0_4, cache-ID = 5840014e2df132db
+INFO: [Coretcl 2-1174] Renamed 6 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 952.813 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_HW/project_5_hw/project_5_hw.runs/design_1_matrix_processor_0_4_synth_1/design_1_matrix_processor_0_4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_matrix_processor_0_4_utilization_synth.rpt -pb design_1_matrix_processor_0_4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 16 17:55:51 2019...
