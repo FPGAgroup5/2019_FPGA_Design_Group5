@@ -6,6 +6,9 @@ E24056645、 E24053061、 E24056849
 ### Block Diagram
 ![](images/Block_Diagram.png)
 
+### 系統架構圖
+![](images/System_Diagram.png)
+
 ### Program 1 - sorting
 數字位元為8bit，數列長度為8，採用的演算法為Insertion Sort。
 
