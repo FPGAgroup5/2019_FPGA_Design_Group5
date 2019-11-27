@@ -1,0 +1,2845 @@
+17:08:15 **** Build of project conv_project_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/conv_processor_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/conv_processor_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/conv_processor_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/conv_processor_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling conv_processor..."
+conv_processor_selftest.c: In function 'CONV_PROCESSOR_Reg_SelfTest':
+conv_processor_selftest.c:52:63: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( CONV_PROCESSOR_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                               ^~
+conv_processor_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project conv_project ****
+
+Nothing to build for project conv_project
+17:11:11 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:20:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &operator);
+          ~^   ~~~~~~~~~
+          %ld
+../src/main.c:21:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", operator);
+           ~^       ~~~~~~~~
+           %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &a);
+           ~^   ~~
+           %ld
+../src/main.c:31:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", a);
+            ~^    ~
+            %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &b);
+           ~^   ~~
+           %ld
+../src/main.c:35:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", b);
+            ~^       ~
+            %ld
+../src/main.c:38:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &c);
+           ~^   ~~
+           %ld
+../src/main.c:39:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", c);
+            ~^    ~
+            %ld
+../src/main.c:42:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &d);
+           ~^   ~~
+           %ld
+../src/main.c:43:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", d);
+            ~^       ~
+            %ld
+../src/main.c:49:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &a);
+            ~^   ~~
+            %ld
+../src/main.c:50:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", a);
+             ~^    ~
+             %ld
+../src/main.c:53:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &b);
+            ~^   ~~
+            %ld
+../src/main.c:54:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", b);
+             ~^       ~
+             %ld
+../src/main.c:57:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &c);
+            ~^   ~~
+            %ld
+../src/main.c:58:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", c);
+             ~^    ~
+             %ld
+../src/main.c:61:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &d);
+            ~^   ~~
+            %ld
+../src/main.c:62:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", d);
+             ~^       ~
+             %ld
+../src/main.c: In function 'write_data':
+../src/main.c:100:15: error: 'XPAR_MATRIX_PROCESSOR_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_CONV_PROCESSOR_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_MATRIX_PROCESSOR_0_S00_AXI_BASEADDR + 0x00000004, 0x00000002); //cmd write
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_CONV_PROCESSOR_0_S00_AXI_BASEADDR
+../src/main.c:100:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'read_data':
+../src/main.c:117:15: error: 'XPAR_MATRIX_PROCESSOR_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_CONV_PROCESSOR_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_MATRIX_PROCESSOR_0_S00_AXI_BASEADDR + 0x00000004, 0x00000001); //cmd read
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_CONV_PROCESSOR_0_S00_AXI_BASEADDR
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:11:54 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:20:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &operator);
+          ~^   ~~~~~~~~~
+          %ld
+../src/main.c:21:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", operator);
+           ~^       ~~~~~~~~
+           %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &a);
+           ~^   ~~
+           %ld
+../src/main.c:31:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", a);
+            ~^    ~
+            %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &b);
+           ~^   ~~
+           %ld
+../src/main.c:35:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", b);
+            ~^       ~
+            %ld
+../src/main.c:38:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &c);
+           ~^   ~~
+           %ld
+../src/main.c:39:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", c);
+            ~^    ~
+            %ld
+../src/main.c:42:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &d);
+           ~^   ~~
+           %ld
+../src/main.c:43:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", d);
+            ~^       ~
+            %ld
+../src/main.c:49:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &a);
+            ~^   ~~
+            %ld
+../src/main.c:50:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", a);
+             ~^    ~
+             %ld
+../src/main.c:53:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &b);
+            ~^   ~~
+            %ld
+../src/main.c:54:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", b);
+             ~^       ~
+             %ld
+../src/main.c:57:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &c);
+            ~^   ~~
+            %ld
+../src/main.c:58:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", c);
+             ~^    ~
+             %ld
+../src/main.c:61:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &d);
+            ~^   ~~
+            %ld
+../src/main.c:62:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", d);
+             ~^       ~
+             %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99576	   2584	  23328	 125488	  1ea30	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:12:01 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:20:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &operator);
+          ~^   ~~~~~~~~~
+          %ld
+../src/main.c:21:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", operator);
+           ~^       ~~~~~~~~
+           %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &a);
+           ~^   ~~
+           %ld
+../src/main.c:31:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", a);
+            ~^    ~
+            %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &b);
+           ~^   ~~
+           %ld
+../src/main.c:35:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", b);
+            ~^       ~
+            %ld
+../src/main.c:38:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &c);
+           ~^   ~~
+           %ld
+../src/main.c:39:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", c);
+            ~^    ~
+            %ld
+../src/main.c:42:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &d);
+           ~^   ~~
+           %ld
+../src/main.c:43:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", d);
+            ~^       ~
+            %ld
+../src/main.c:49:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &a);
+            ~^   ~~
+            %ld
+../src/main.c:50:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", a);
+             ~^    ~
+             %ld
+../src/main.c:53:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &b);
+            ~^   ~~
+            %ld
+../src/main.c:54:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", b);
+             ~^       ~
+             %ld
+../src/main.c:57:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &c);
+            ~^   ~~
+            %ld
+../src/main.c:58:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", c);
+             ~^    ~
+             %ld
+../src/main.c:61:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &d);
+            ~^   ~~
+            %ld
+../src/main.c:62:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", d);
+             ~^       ~
+             %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99576	   2584	  23328	 125488	  1ea30	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:12:28 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &a);
+           ~^   ~~
+           %ld
+../src/main.c:29:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", a);
+            ~^    ~
+            %ld
+../src/main.c:32:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &b);
+           ~^   ~~
+           %ld
+../src/main.c:33:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", b);
+            ~^       ~
+            %ld
+../src/main.c:36:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &c);
+           ~^   ~~
+           %ld
+../src/main.c:37:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d ", c);
+            ~^    ~
+            %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &d);
+           ~^   ~~
+           %ld
+../src/main.c:41:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", d);
+            ~^       ~
+            %ld
+../src/main.c:47:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &a);
+            ~^   ~~
+            %ld
+../src/main.c:48:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", a);
+             ~^    ~
+             %ld
+../src/main.c:51:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &b);
+            ~^   ~~
+            %ld
+../src/main.c:52:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", b);
+             ~^       ~
+             %ld
+../src/main.c:55:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &c);
+            ~^   ~~
+            %ld
+../src/main.c:56:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d ", c);
+             ~^    ~
+             %ld
+../src/main.c:59:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &d);
+            ~^   ~~
+            %ld
+../src/main.c:60:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", d);
+             ~^       ~
+             %ld
+../src/main.c:21:5: warning: 'operator' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if(operator >= 0 && operator <= 4){
+     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99512	   2584	  23328	 125424	  1e9f0	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:12:52 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:20:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator >= 0 && operator <= 4){
+      ^~~~~~~~
+      perror
+../src/main.c:20:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:27:17: error: 'a' undeclared (first use in this function)
+    scanf("%d", &a);
+                 ^
+../src/main.c:31:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &b);
+           ~^   ~~
+           %ld
+../src/main.c:32:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", b);
+            ~^       ~
+            %ld
+../src/main.c:35:17: error: 'c' undeclared (first use in this function)
+    scanf("%d", &c);
+                 ^
+../src/main.c:39:17: error: 'd' undeclared (first use in this function)
+    scanf("%d", &d);
+                 ^
+../src/main.c:50:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+     scanf("%d", &b);
+            ~^   ~~
+            %ld
+../src/main.c:51:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+     printf("%d\r\n", b);
+             ~^       ~
+             %ld
+../src/main.c:13:34: warning: unused variable 'w3' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                  ^~
+../src/main.c:13:30: warning: unused variable 'w2' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                              ^~
+../src/main.c:13:26: warning: unused variable 'w1' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                          ^~
+../src/main.c:13:22: warning: unused variable 'w0' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                      ^~
+../src/main.c:13:18: warning: unused variable 'x3' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                  ^~
+../src/main.c:13:14: warning: unused variable 'x2' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+              ^~
+../src/main.c:13:10: warning: unused variable 'x1' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+          ^~
+../src/main.c:13:6: warning: unused variable 'x0' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+      ^~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:13:19 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:24:16: error: 'a' undeclared (first use in this function)
+   scanf("%d", &a);
+                ^
+../src/main.c:24:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:28:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:29:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c:32:16: error: 'c' undeclared (first use in this function)
+   scanf("%d", &c);
+                ^
+../src/main.c:36:16: error: 'd' undeclared (first use in this function)
+   scanf("%d", &d);
+                ^
+../src/main.c:40:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2){
+      ^~~~~~~~
+      perror
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &b);
+           ~^   ~~
+           %ld
+../src/main.c:48:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", b);
+            ~^       ~
+            %ld
+../src/main.c:80:2: error: 'else' without a previous 'if'
+  else{
+  ^~~~
+../src/main.c:13:34: warning: unused variable 'w3' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                  ^~
+../src/main.c:13:30: warning: unused variable 'w2' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                              ^~
+../src/main.c:13:26: warning: unused variable 'w1' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                          ^~
+../src/main.c:13:22: warning: unused variable 'w0' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                      ^~
+../src/main.c:13:18: warning: unused variable 'x3' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                  ^~
+../src/main.c:13:14: warning: unused variable 'x2' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+              ^~
+../src/main.c:13:10: warning: unused variable 'x1' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+          ^~
+../src/main.c:13:6: warning: unused variable 'x0' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+      ^~
+../src/main.c: At top level:
+../src/main.c:86:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:87:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:14:04 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:24:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:25:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:28:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:29:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:32:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:33:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:36:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:37:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:40:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2){
+      ^~~~~~~~
+      perror
+../src/main.c:40:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:43:17: error: 'a' undeclared (first use in this function)
+    scanf("%d", &a);
+                 ^
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+    scanf("%d", &b);
+           ~^   ~~
+           %ld
+../src/main.c:48:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+    printf("%d\r\n", b);
+            ~^       ~
+            %ld
+../src/main.c:51:17: error: 'c' undeclared (first use in this function)
+    scanf("%d", &c);
+                 ^
+../src/main.c:55:17: error: 'd' undeclared (first use in this function)
+    scanf("%d", &d);
+                 ^
+../src/main.c:80:2: error: 'else' without a previous 'if'
+  else{
+  ^~~~
+../src/main.c:13:34: warning: unused variable 'w3' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                  ^~
+../src/main.c:13:30: warning: unused variable 'w2' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                              ^~
+../src/main.c:13:26: warning: unused variable 'w1' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                          ^~
+../src/main.c:13:22: warning: unused variable 'w0' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                      ^~
+../src/main.c: At top level:
+../src/main.c:86:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:87:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:14:50 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:24:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:25:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:28:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:29:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:32:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:33:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:36:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:37:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:42:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:43:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:46:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:50:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:51:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:54:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:55:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:65:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:65:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:13:38: warning: unused variable 'b' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                      ^
+../src/main.c: At top level:
+../src/main.c:79:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:83:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:85:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:86:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:15:09 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:62:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:62:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:13:38: warning: unused variable 'b' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                      ^
+../src/main.c: At top level:
+../src/main.c:76:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:80:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:82:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:83:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:15:12 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:22:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:23:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:26:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:27:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:30:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:31:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:34:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:35:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:40:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:41:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:44:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:45:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:48:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:49:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:52:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:53:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:63:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:63:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:13:38: warning: unused variable 'b' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                      ^
+../src/main.c: At top level:
+../src/main.c:77:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:81:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:83:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:84:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:15:38 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:62:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:62:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:13:38: warning: unused variable 'b' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                      ^
+../src/main.c: At top level:
+../src/main.c:76:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:80:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:82:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:83:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:16:02 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:62:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:62:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:13:38: warning: unused variable 'b' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                      ^
+../src/main.c: At top level:
+../src/main.c:76:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:80:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:82:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:83:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:16:25 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:63:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:63:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:13:38: warning: unused variable 'b' [-Wunused-variable]
+  u32 x0, x1, x2, x3, w0, w1, w2, w3, b;
+                                      ^
+../src/main.c: At top level:
+../src/main.c:77:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:81:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:83:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:84:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:16:42 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c:67:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:67:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:81:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:85:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:87:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:88:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:17:54 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c:67:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:67:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:81:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:85:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:87:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:88:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:18:03 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c:67:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:67:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:81:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:85:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:87:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:88:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:18:11 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c:67:6: error: 'operator' undeclared (first use in this function); did you mean 'perror'?
+   if(operator == 0 || operator == 1 || operator == 2 || operator == 3){
+      ^~~~~~~~
+      perror
+../src/main.c:67:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:81:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:85:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:87:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:88:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:18:29 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c: At top level:
+../src/main.c:70:3: error: expected identifier or '(' before 'else'
+   else if(operator == 4){
+   ^~~~
+../src/main.c:74:14: error: expected declaration specifiers or '...' before numeric constant
+   write_data(15, 0); //reset done signal
+              ^~
+../src/main.c:74:18: error: expected declaration specifiers or '...' before numeric constant
+   write_data(15, 0); //reset done signal
+                  ^
+../src/main.c:75:10: error: expected declaration specifiers or '...' before string constant
+   printf("\r\n");
+          ^~~~~~
+../src/main.c:76:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:77:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:81:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:83:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:84:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:18:42 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c: At top level:
+../src/main.c:73:2: error: expected identifier or '(' before 'else'
+  else{
+  ^~~~
+../src/main.c:77:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+../src/main.c:79:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:80:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:19:04 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+../src/main.c: At top level:
+../src/main.c:76:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/main.c:77:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+17:19:18 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99184	   2584	  23328	 125096	  1e8a8	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:19:24 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99184	   2584	  23328	 125096	  1e8a8	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:19:59 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:38:10: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   printf("");
+          ^~
+../src/main.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:40:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:44:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:47:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:48:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:51:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:52:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:57:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:58:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99192	   2584	  23328	 125104	  1e8b0	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:20:02 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:39:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:42:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:43:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:46:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:50:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:51:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:56:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:57:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99192	   2584	  23328	 125104	  1e8b0	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:20:24 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:39:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:42:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:43:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:46:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:50:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:51:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:56:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:57:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99192	   2584	  23328	 125104	  1e8b0	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:20:31 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:39:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:42:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:43:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:46:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:50:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:51:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:56:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:57:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99192	   2584	  23328	 125104	  1e8b0	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+17:23:36 **** Auto Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:39:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:42:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:43:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:46:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:50:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:51:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:56:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:57:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99192	   2584	  23328	 125104	  1e8b0	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+20:41:44 **** Clean-only build of project conv_project_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/conv_processor_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s clean 
+rm: lstat¡¥*.o¡¦¥¢±Ñ: Invalid argument
+make[1]: *** [Makefile:26: clean] Error 1
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make: *** [Makefile:33: ps7_cortexa9_0/libsrc/conv_processor_v1_0/src/make.clean] Error 2
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+make: Target 'clean' not remade because of errors.
+20:41:51 **** Clean-only build of configuration Debug for project conv_project ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  conv_project.elf.size  conv_project.elf
+' '
+20:41:52 **** Build of project conv_project_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/conv_processor_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/conv_processor_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/conv_processor_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/conv_processor_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling conv_processor..."
+conv_processor_selftest.c: In function 'CONV_PROCESSOR_Reg_SelfTest':
+conv_processor_selftest.c:52:63: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( CONV_PROCESSOR_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                               ^~
+conv_processor_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:42:38 **** Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../conv_project_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x0);
+          ~^   ~~~
+          %ld
+../src/main.c:22:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x0);
+           ~^    ~~
+           %ld
+../src/main.c:25:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x1);
+          ~^   ~~~
+          %ld
+../src/main.c:26:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x1);
+           ~^       ~~
+           %ld
+../src/main.c:29:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x2);
+          ~^   ~~~
+          %ld
+../src/main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", x2);
+           ~^    ~~
+           %ld
+../src/main.c:33:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &x3);
+          ~^   ~~~
+          %ld
+../src/main.c:34:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", x3);
+           ~^       ~~
+           %ld
+../src/main.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w0);
+          ~^   ~~~
+          %ld
+../src/main.c:39:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w0);
+           ~^    ~~
+           %ld
+../src/main.c:42:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w1);
+          ~^   ~~~
+          %ld
+../src/main.c:43:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w1);
+           ~^       ~~
+           %ld
+../src/main.c:46:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w2);
+          ~^   ~~~
+          %ld
+../src/main.c:47:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d ", w2);
+           ~^    ~~
+           %ld
+../src/main.c:50:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &w3);
+          ~^   ~~~
+          %ld
+../src/main.c:51:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", w3);
+           ~^       ~~
+           %ld
+../src/main.c:56:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u32 *' {aka 'long unsigned int *'} [-Wformat=]
+   scanf("%d", &b);
+          ~^   ~~
+          %ld
+../src/main.c:57:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("%d\r\n", b);
+           ~^       ~
+           %ld
+'Finished building: ../src/main.c'
+' '
+'Building target: conv_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../conv_project_bsp/ps7_cortexa9_0/lib -o "conv_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: conv_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size conv_project.elf  |tee "conv_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99192	   2584	  23328	 125104	  1e8b0	conv_project.elf
+'Finished building: conv_project.elf.size'
+' '
+20:50:02 **** Incremental Build of configuration Debug for project conv_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
