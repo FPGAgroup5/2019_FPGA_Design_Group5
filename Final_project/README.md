@@ -18,10 +18,11 @@ E24056645、 E24053061、 E24056849
 另外一開始使用的是使用者輸入的key，接下來的10個回合分別有10個round key。
 ![](images/algorithm.PNG)
 #### AddRoundKey
-將輸入的128bits分為B0~B15共16個bytes，key也分為K0~K15共16個byte，並將兩者做XOR:
+將輸入的128bits分為B0至B15共16個bytes，key也分為K0至K15共16個byte，並將兩者做XOR:
 ![](images/AddRoundKey.PNG)
 #### SubBytes
 每一個Byte依照Rijndael s-box進行轉換:
+
 ![](images/SubBytes.PNG)
 #### ShiftRows
 第一列向左移1個Byte，第二列2個Bytes，第三列3個Bytes:
@@ -36,6 +37,7 @@ E24056645、 E24053061、 E24056849
 
 ###### (1)產生係數G
 複製Wi-1，向上Rotate 1個Byte，得到的這四個Byte依照Rijndael s-box進行轉換，接著與當前回合的Rcon做XOR可得4個Bytes的係數G:
+
 ![](images/Key_Generation.PNG)
 ![](images/Rcon.PNG)
 ###### (2)產生新的Round Key
@@ -44,7 +46,9 @@ E24056645、 E24053061、 E24056849
 ### Pynq-z2使用狀況
 4183個LUT(7.86%)、60個LUT用於Distributed RAM(0.34%)、2889個Flip-Flop(2.72%)、1個BUFG(3.13%)
 ![](images/LUT_resources.PNG)
+
 Setup time slack = 0.133ns
+
 ![](images/LUT_timing.PNG)
 Total on-chip power = 1.481W
 ![](images/LUT_power.PNG)
