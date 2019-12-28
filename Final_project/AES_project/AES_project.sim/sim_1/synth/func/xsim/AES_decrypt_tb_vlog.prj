@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"AES_decrypt_tb_func_synth.v" \
+"../../../../../AES_test.srcs/sim_1/imports/AES_reg/AES_decrypt_tb.v" \
+
+# Do not sort compile order
+nosort
