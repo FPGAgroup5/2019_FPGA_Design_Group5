@@ -56,3 +56,10 @@ Total on-chip power = 1.481W
 ### 執行結果
 首先選擇加密的動作，以16進位的方式輸入128bits的plaintext以及128bits的key，得到128bits的ciphertext，再利用相同的key將ciphertext解密回來，得到原本的plaintext。
 ![](images/result.PNG)
+
+### 結論
+1.Encryption、Decryption皆需要key，沒有key的話難以進行Decryption，因此難以破解
+
+2.使用到的FPGA resources的比例不多(LUT: 7.86%)
+
+3.FPGA適合做AES電路: 使用到的運算只有XOR、shift、查表(s-box)、以及if-else之邏輯，其中shift可以使用SLICEM當作shift registers來實現，其他的功能因為簡單，output訊號所依賴的input不多，不用太多的LUT即可做出來。
