@@ -62,4 +62,4 @@ Total on-chip power = 1.481W
 
 2.使用到的FPGA resources的比例不多(LUT: 7.86%)
 
-3.FPGA適合做AES電路: 使用到的運算只有XOR、shift、查表(s-box)、以及if-else之邏輯，其中shift可以使用SLICEM當作shift registers來實現，其他的功能因為簡單，output訊號所依賴的input不多，不用太多的LUT即可做出來。
+3.FPGA適合做AES電路: 使用到的運算只有XOR、shift、查表(s-box)、以及if-else之邏輯，其中shift只會影響繞線，而其他的功能較為簡單，output訊號所依賴的input不多，不用太多的LUT和MUX即可做出來。
